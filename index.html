@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reci</title>
+
+      <link rel="stylesheet" href="style.css">
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    
+    <header class="navbar">
+      <h1>Welcome to Reci</h1>
+    </header>
+    <div class="recipe-card">
+
+      <div class="ingredients">
+        <button type="button" class="ingredient-btn" id="chicken">
+          <img src="./images/chicken.jpg" alt="chicken">
+        </button>
+        <button type="button" class="ingredient-btn" id="meat">
+          <img src="./images/meat.png" alt="meat">
+        </button>
+        <button type="button" class="ingredient-btn" id="potato">
+          <img src="./images/potato.png" alt="potato">
+        </button>
+        <button type="button" class="ingredient-btn" id="tomato">
+          <img src="./images/tomato.png" alt="tomato">
+        </button>
+      </div>
+    </div>
+  
+    <div class="container">
+
+  
+    
+  
+      <div class="recipe-card">
+        <h3>Tasty Dishes</h3>
+        <div class="ingredients" id="meals_container"></div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modal-meal-name"></h3>
+        <ul id="modal-ingredients"></ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        &copy; 2024 Reci. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
